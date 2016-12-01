@@ -23,3 +23,10 @@ We use the [.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 ```javascript
 fCallback.call( this );
 ```
+## Set a default value for a JavaScript function parameter
+In this example we want the default value for the `sampleParamter` to be `false`:
+```javascript
+function sampleFunction( sampleParameter ) {
+    sampleParameter = typeof sampleParameter !== 'undefined' ? sampleParameter : false;
+}
+```
