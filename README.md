@@ -1,5 +1,10 @@
 # UsefulJavascript
 
+## Index
+- [Get the stack trace for an error](#get-the-stack-trace-for-an-error)
+- [Invoke a Callback function](#invoke-a-callback-function)
+- [Set a default value for a JavaScript function parameter](#set-a-default-value-for-a-javaScript-function-parameter)
+
 ## Get the stack trace for an error
 ```javascript
 try {
