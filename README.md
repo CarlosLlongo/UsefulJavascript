@@ -3,6 +3,7 @@
 ## Index
 - [Get the stack trace for an error](#get-the-stack-trace-for-an-error)
 - [Invoke a Callback function](#invoke-a-callback-function)
+- [Measure code execution time](#measure-code-execution-time)
 - [Set a default value for a JavaScript function parameter](#set-a-default-value-for-a-javascript-function-parameter)
 
 ## Get the stack trace for an error
