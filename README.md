@@ -1,10 +1,17 @@
 # UsefulJavascript
 
 ## Index
+- [Find out from where a function is being called](#find-out-from-where-a-function-is-being-called)
 - [Get the stack trace for an error](#get-the-stack-trace-for-an-error)
 - [Invoke a Callback function](#invoke-a-callback-function)
 - [Measure code execution time](#measure-code-execution-time)
 - [Set a default value for a JavaScript function parameter](#set-a-default-value-for-a-javascript-function-parameter)
+
+## Find out from where a function is being called
+If we add this to a function, it will show a Stack Trace.
+```javascript
+console.log( ( new Error() ).stack );
+```
 
 ## Get the stack trace for an error
 ```javascript
